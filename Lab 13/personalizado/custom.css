@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #26247c;
+}
+
+.logo {
+    cursor: pointer;
+    width: 120px;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav__links li a:hover {
+    color: white;
+}
+
+.boton {
+    padding: 9px 25px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+  
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 10px;
+}
+  
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+
+.row:after {
+    display: table;
+    clear: both;
+}
+  
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  
+.form-register{
+    width: 400px;
+    background: #108d59;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #1c1d20;
+    
+}
+
+.form-register h4{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.controls{
+    width: 100%;
+    background: #e4e5e6;
+    padding: 4px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #e5e742;
+    font-size: 18px;
+    color:black;
+}
+
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color:white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #121d27;
+    border: none;
+    padding: 12px;
+    color: #4284e7;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+body{
+    background-color: #2d3033;
+}
